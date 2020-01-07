@@ -47,7 +47,7 @@ def crawl_you(youtube_link):
 #     # with open(i,'w+',encoding='utf-8') as f:
 #         crawl_you('http://www.youtube.com/watch?v='+i)
 
-top = int(input('Amount video return:'))
+top = int(input('Amount comment return:'))
 textToSearch = input("Topic:")
 query = urllib.parse.quote(textToSearch)
 url = "https://www.youtube.com/results?search_query=" + query
